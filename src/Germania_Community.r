@@ -60,7 +60,6 @@ plot(g,
 
 
 betweenness_centrality <- betweenness(g)
-
 # Plot mit Hervorhebung zentraler Knoten
 plot(g, 
      vertex.label = V(g)$label,
@@ -224,17 +223,17 @@ degree(g)
 plot(g, 
      main="Gerichtetes Netzwerk mit Degree-Zentralität", 
      vertex.label = V(g)$label,  # Knotenlabel anzeigen
-     vertex.size = degree * 10,  # Knoten-Größe basierend auf Eigenvector-Zentralität
+     vertex.size = degree * 3.5,  # Knoten-Größe basierend auf Eigenvector-Zentralität
      vertex.color = "lightblue",  # Knotenfarbe
      edge.arrow.size = 1.5,       # Größe der Pfeile
      edge.color = "black",         # Kantenfarbe
      edge.width = 2,              # Kantenbreite
-     layout = layout_with_graphopt)
+     layout = layout_randomly)
 
 plot(g, 
      main="Gerichtetes Netzwerk mit Betweenness-Zentralität", 
      vertex.label = V(g)$label,  # Knotenlabel anzeigen
-     vertex.size = betweenness_centrality * 10,  # Knoten-Größe basierend auf Eigenvector-Zentralität
+     vertex.size = betweenness_centrality * 3.5,  # Knoten-Größe basierend auf Eigenvector-Zentralität
      vertex.color = "lightblue",  # Knotenfarbe
      edge.arrow.size = 1.5,       # Größe der Pfeile
      edge.color = "black",         # Kantenfarbe
