@@ -3,8 +3,8 @@ library(igraph)
 library(visNetwork)
 
 # Lade die Kanten- und Knoten-Tabellen
-edges <- read.csv("edges1.csv")
-nodes <- read.csv("nodes1.csv")
+edges <- read.csv("Daten/edges1.csv")
+nodes <- read.csv("Daten/nodes1.csv")
 
 # Erstelle den Graphen mit den Kanten
 g <- graph_from_data_frame(d = edges, vertices = nodes, directed = TRUE)
