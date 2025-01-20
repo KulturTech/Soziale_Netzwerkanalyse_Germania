@@ -1,0 +1,162 @@
+Node_ID,Vorname,Name,Name/Label,Typ,Gruppe,Rolle,"Attribute 1,2...."
+1,Enno,Arends,Enno Arends,Individuum,Germania,Mitglied,Internist
+2,Wolfgang,Bahr,Wolfgang Bahr,Individuum,Germania,Mitglied,Diplom-Physiker
+3,Patrick,Bass,Patrick Bass,Individuum,Germania,Mitglied/Schriftwart,Rechtsanwalt
+4,Ulf Hermann,Bauerfeld,Ulf Hermann Bauerfeld,Individuum,Germania,Mitglied,Allgemeinarzt
+5,Reinhard,Becker-Schaffner,Reinhard Becker-Schaffner,Individuum,Germania,Mitglied,Direktor am Arbeitsgericht a.D
+6,Ben Niclas,Berressem,Ben Niclas Berressem,Individuum,Germania,Mitglied,Politikberater der Friedrich-Friesen-Stiftung
+7,Reinhard,Bohlig,Reinhard Bohlig,Individuum,Germania,Mitglied,Rechtsanwalt und Notar
+8,Hartmut,Borchert,Hartmut Borchert,Individuum,Germania,Mitglied,Vorstand i.R.
+9,Klaus,Bottler,Klaus Bottler,Individuum,Germania,Mitglied,Oberstudienrat a.D.
+10,Eberhard,Bottler,Eberhard Bottler,Individuum,Germania,Mitglied,Orthopäde i.R.
+11,Torben,Braga,Torben Braga,Individuum,Germania,Alter Herr,Mitglied Thüringer Landtag AfD
+12,Peter,Braun,Peter Braun,Individuum,Germania,Alter Herr,Diplom Kaufmann
+13,Hans-Peter,Brenzel,Hans-Peter Brenzel,Individuum,Germania,Mitglied,Diplom Volkswirt
+14,Lars,Brettschneider,Lars Brettschneider,Individuum,Germania,Mitglied,"Rechtsanwalt, Notar"
+15,Carl,Brocksiepe,Carl Brocksiepe,Individuum,Germania,Mitglied,Syndikus i.R.
+16,Christopher,Buß,Christopher Buß,Individuum,Germania,Alter Herr,Jurist
+17,Ulrich,Bährens,Ulrich Bährens,Individuum,Germania,Mitglied,Justitiar i.R.
+18,Werner,Dalhoff,Werner Dalhoff,Individuum,Germania,Alter Herr,Archivangestellter
+19,Karl Jörg,Dehner,Karl Jörg Dehner,Individuum,Germania,Alter Herr,Rechtsanwalt
+20,Ansgar,Demmer,Ansgar Demmer,Individuum,Germania,Mitglied,
+21,Kurt-Otto,Demmer,Kurt-Otto Demmer,Individuum,Germania,Mitglied,Internist
+22,Hans Joachim,Dietzel,Hans Joachim Dietzel,Individuum,Germania,Mitglied,Geophysiker Dipl.Ing.
+23,Sigurd,Ehls,Sigurd Ehls,Individuum,Germania,Alter Herr,Dozent
+24,Max,Eichhorn,Max Eichhorn,Individuum,Germania,Schnittstelle zwischen Neonazi-Kleinspartei III.Weg und Germania,Student
+25,Karl-Theodor,Eysel,Karl-Theodor Eysel,Individuum,Germania,Mitglied,Allgemeinarzt i.R.
+26,Roy,Felgner,Roy Felgner,Individuum,Germania,Alter Herr,Rechtsanwalt
+27,Jochen,Fend,Jochen Fend,Individuum,Germania,Alter Herr,HNO-Arzt
+28,Hendrik,Fiedel,Hendrik Fiedel,Individuum,Germania,Mitglied,Rechtsanwalt
+29,Thomas,Finke,Thomas Finke,Individuum,Germania,Mitglied,Diplom Verwaltungswirt .a.D
+30,Friedrich,Fischer,Friedrich Fischer,Individuum,Germania,Mitglied,Diplom-Mathematiker
+31,Christian,Fode,Christian Fode,Individuum,Germania,Mitglied,Apotheker
+32,Marcel,Freidinger,Marcel Freidinger,Individuum,Germania,Mitglied,Diplom Volkswirt
+33,Fritz,Frerking,Fritz Frerking,Individuum,Germania,Mitglied,Regierungsdirektor a.D.
+34,Ernst-Jürgen,Froelich,Ernst-Jürgen Froelich,Individuum,Germania,Mitglied,Urologe
+35,Rüdiger,Froelich,Rüdiger Froelich,Individuum,Germania,Mitglied,Arzt
+36,Heinz-Dethart,Froelich,Heinz-Dethart Froelich,Individuum,Germania,Mitglied,Allgemeinarzt
+37,Claus Heinrich,Gattermann,Claus Heinrich Gattermann,Individuum,Germania,Mitglied,Historiker
+38,Hans-Jürgen,Gerner,Hans-Jürgen Gerner,Individuum,Germania,Alter Herr,Direktor Orthopädie i.R.
+39,Stephan Otto Karl,Gleißner,Stephan Otto Karl Gleißner,Individuum,Germania,Alter Herr,Hauptmann Bundeswehr
+40,Helmut,Goldmann,Helmut Goldmann,Individuum,Germania,Mitglied,Zahnarzt
+41,Andreas,Graudin,Andreas Graudin,Individuum,Germania,Mitglied,"Jurist,Verwaltungswissenschaftler"
+42,Marcel Karl-Heinz,Grauf,Marcel Karl-Heinz Grauf,Individuum,Germania,Alter Herr,Verantwortlicher des TMS-Verlags
+43,Nils,Grunemann,Nils Grunemann,Individuum,Germania,Mitglied,Priester Piusbruderschaft
+44,Werner,Hanisch,Werner Hanisch,Individuum,Germania,Mitglied,Präsident VG Oldenburg a.D.
+45,Volker,Hein,Volker Hein,Individuum,Germania,Sprecher,SAP
+46,Engelhart,Heins,Engelhart Heins,Individuum,Germania,Mitglied,"Rechtsanwalt, Notar"
+47,Frank,Helpap,Frank Helpap,Individuum,Germania,Mitglied,Zahnarzt
+48,Hartmut,Hennies,Hartmut Hennies,Individuum,Germania,Mitglied,Zahnarzt
+49,Dieter,Herrmann,Dieter Herrmann,Individuum,Germania,Mitglied,Arzt
+50,Werner,Herrmann,Werner Herrmann,Individuum,Germania,Mitglied,Amtsgerichtsdirektor a.D.
+51,Heye,Heyenga,Heye Heyenga,Individuum,Germania,Mitglied,Chefarzt a.D.
+52,Reinhard,Hiller,Reinhard Hiller,Individuum,Germania,Mitglied,Apotheker i. R.
+53,Christian,Hillmer,Christian Hillmer,Individuum,Germania,Mitglied,Studienrat
+54,Andreas,Hofsommer,Andreas Hofsommer,Individuum,Germania,Mitglied,Gymnasiallehrer
+55,Johannes,Hofsommer,Johannes Hofsommer,Individuum,Germania,Mitglied,
+56,Willi,Hornfeld,Willi Hornfeld,Individuum,Germania,Mitglied,Diplom-Physiker
+57,Volker,Horstmann,Volker Horstmann,Individuum,Germania,Mitglied,Geschäftsführer
+58,Alexander,Ihls,Alexander Ihls,Individuum,Germania,Alter Herr,Manager „Strategic Business Development Healthcare“
+59,Rolf-Eberhard,Jung,Rolf-Eberhard Jung,Individuum,Germania,Mitglied,Botschafter a.D.
+60,Christoph,Jung,Christoph Jung,Individuum,Germania,Mitglied,Rechtsanwalt
+61,Wolf,Jöckel,Wolf Jöckel,Individuum,Germania,Mitglied,Chirurg
+62,Günther,Kaut,Günther Kaut,Individuum,Germania,Alter Herr,Lehrer
+63,Alexander,Kian,Alexander Kian,Individuum,Germania,Mitglied,Orthopäde
+64,Helmut,Kilp,Helmut Kilp,Individuum,Germania,Mitglied,Zahnarzt
+65,Christian-Wilhelm,Kilp,Christian-Wilhelm Kilp,Individuum,Germania,Mitglied,Rechtsanwalt
+66,Werner,Kirsch,Werner Kirsch,Individuum,Germania,Mitglied,Chirurg i.R.
+67,Oliver,Kitzrow,Oliver Kitzrow,Individuum,Germania,Alter Herr,Diplom Wirtschaftsjurist
+68,Maximilian,Kolb,Maximilian Kolb,Individuum,Germania,Mitglied,Student
+69,Thilo,Korn,Thilo Korn,Individuum,Germania,Alter Herr,Rechtsanwalt
+70,Klaus,Korte,Klaus Korte,Individuum,Germania,Mitglied,Internist i.R.
+71,Franzisco,Kottek,Franzisco Kottek,Individuum,Germania,Alter Herr,Student
+72,Hartmut,Krail,Hartmut Krail,Individuum,Germania,Mitglied,Apotheker
+73,Nicolas Marian,Krömer,Nicolas Marian Krömer,Individuum,Germania,Mitglied,"Student, gelernter Informatiker"
+74,Martin Ulrich,Kube,Martin Ulrich Kube,Individuum,Germania,Mitglied,DHL Manager (Netzplanung)
+75,Eckard,Kühn,Eckard Kühn,Individuum,Germania,Mitglied,Diplom Physiker
+76,Max Ferdinand,Ledwig,Max Ferdinand Ledwig,Individuum,Germania,Mitglied,Student
+77,Horst Joachim,Lietsch,Horst Joachim Lietsch,Individuum,Germania,Mitglied,Regierungsdirektor a.D.
+78,Eike,Linneweh,Eike Linneweh,Individuum,Germania,Mitglied,Internist i.R.
+79,Eckehard,Lischka,Eckehard Lischka,Individuum,Germania,Mitglied,"Rechtsanwalt, Notar"
+80,Heinrich Nikolai,Mahling,Heinrich Nikolai Mahling,Individuum,Germania,Mitglied,Student
+81,Michael,Marek,Michael Marek,Individuum,Germania,Mitglied,"Rechtsanwalt, Notar"
+82,Michael,Meixner,Michael Meixner,Individuum,Germania,Mitglied,"Facharzt, Lehrbeauftragter"
+83,Hans-Jörg,Meyer,Hans-Jörg Meyer,Individuum,Germania,Mitglied,Arzt
+84,Manfred,Meyer-Ralfs,Manfred Meyer-Ralfs,Individuum,Germania,Mitglied,Orthopäde i.R.
+85,Friedrich Karl,Moraht,Friedrich Karl Moraht,Individuum,Germania,Mitglied,Student
+86,Werner,Möhn,Werner Möhn,Individuum,Germania,Mitglied,Oberstaatsanwalt a.D.
+87,Peter,Mühlner,Peter Mühlner,Individuum,Germania,Mitglied,Oberstudienrat a.D.
+88,Joachim,Müller,Joachim Müller,Individuum,Germania,Mitglied,Physiker
+89,Moritz Hermann Otto Georg,Nieder,Moritz Hermann Otto Georg Nieder,Individuum,Germania,Mitglied,Student
+90,Benjamin,Niemeyer,Benjamin Niemeyer,Individuum,Germania,Mitglied,Diplom Volkswirt
+91,Nils,Nilles,Nils Nilles,Individuum,Germania,Mitglied,Hautarzt
+92,Florian,Nube,Florian Nube,Individuum,Germania,Mitglied,Chirurg i.R.
+93,Carsten,Nödel,Carsten Nödel,Individuum,Germania,Mitglied,Grundschuldirektor
+94,Robert,Offermann,Robert Offermann,Individuum,Germania,Mitglied,Pressereferent AfD Hamburg
+95,Peter,Otto,Peter Otto,Individuum,Germania,Mitglied,Chefarzt i.R.
+96,Jochen,Oßwald,Jochen Oßwald,Individuum,Germania,Mitglied,"Chirurg, Oberarzt i.R."
+97,Reinhard,Peterhoff,Reinhard Peterhoff,Individuum,Germania,Mitglied,Dr.rer.pol.Ak.Oberrat a.D.
+98,Matthias,Pieper,Matthias Pieper,Individuum,Germania,Mitglied,Rechtsanwalt
+99,Thomas,Piotrowski,Thomas Piotrowski,Individuum,Germania,Alter Herr,Allgemeinarzt
+100,Helmut,Pippart,Helmut Pippart,Individuum,Germania,Mitglied,Allgemeinarzt
+101,Rudolf,Plagens,Rudolf Plagens,Individuum,Germania,Mitglied,Studiendirektor a.D.
+102,Wolfgang,Polte,Wolfgang Polte,Individuum,Germania,Mitglied,Student
+103,Michael,Rausch,Michael Rausch,Individuum,Germania,Mitglied,Postbote
+104,Franz Roland,Richter,Franz Roland Richter,Individuum,Germania,Mitglied,"Lehrbeauftragter, Versicherungsangestellter"
+105,Stefan,Riemenschneider,Stefan Riemenschneider,Individuum,Germania,Mitglied,Orthopäde
+106,Georg,Ringk,Georg Ringk,Individuum,Germania,Mitglied,Allgemeinarzt
+107,Reinhard,Ritter,Reinhard Ritter,Individuum,Germania,Mitglied,Zahnarzt i.R.
+108,Thomas,Ritter,Thomas Ritter,Individuum,Germania,Mitglied,Berufsschullehrer
+109,Jochen,Ritter,Jochen Ritter,Individuum,Germania,Mitglied,Apotheker
+110,Stephan,Rixe,Stephan Rixe,Individuum,Germania,Mitglied,Allgemeinarzt
+111,Wolfgang,Rudloff,Wolfgang Rudloff,Individuum,Germania,Mitglied,Diplom Ingenieur
+112,Mario,Rüger,Mario Rüger,Individuum,Germania,Mitglied,gelernter Grafiker
+113,Tobias,Sauer,Tobias Sauer,Individuum,Germania,Mitglied,
+114,Hans Dietrich,Saßenhausen,Hans Dietrich Saßenhausen,Individuum,Germania,Mitglied,Richter am Amtsgericht a.D.
+115,Ulrich Jürgen,Scharmann,Ulrich Jürgen Scharmann,Individuum,Germania,Mitglied,Landeskirchenrat a.D.
+116,Sebastian,Scheel,Sebastian Scheel,Individuum,Germania,Mitglied,
+117,Axel,Schilder,Axel Schilder,Individuum,Germania,Mitglied,"Rechtsanwalt, Finanzwirt"
+118,Bernhard,Schink,Bernhard Schink,Individuum,Germania,Alter Herr,"Prof.Dr. Biologie, Hochschullehrer"
+119,Alfred,"Schlieffen, Graf von","Alfred Schlieffen, Graf von",Individuum,Germania,Mitglied,Apotheker i.R.
+120,Jürgen,Schloeßer,Jürgen Schloeßer,Individuum,Germania,Mitglied,Regierungsdirektor a.D.
+121,Wolfgang,Schloeßer,Wolfgang Schloeßer,Individuum,Germania,Mitglied,Geschäftsführer
+122,Dietrich,Schmidt,Dietrich Schmidt,Individuum,Germania,Mitglied,Richter am Amtsgericht a.D.
+123,Christian,Schneider,Christian Schneider,Individuum,Germania,Mitglied,
+124,Markus,Schreiber,Markus Schreiber,Individuum,Germania,Mitglied,
+125,Otto,Schröder,Otto Schröder,Individuum,Germania,Vorstandsmitglied,Diplom Kaufmann
+126,Hans,Schultz,Hans Schultz,Individuum,Germania,Mitglied,Rechtsanwalt
+127,Gerd,Schulze,Gerd Schulze,Individuum,Germania,Mitglied,Oberstudienrat a.D.
+128,Burkhard,Schöbener,Burkhard Schöbener,Individuum,Germania,Mitglied,Universitäts-Professor
+129,Helmut,Schönhoff,Helmut Schönhoff,Individuum,Germania,Mitglied,Regierungsdirektor a.D.
+130,Volker,Schütze,Volker Schütze,Individuum,Germania,Mitglied,Fahrlehrer
+131,Klaus Dietmar,Schütze,Klaus Dietmar Schütze,Individuum,Germania,Mitglied,Apotheker
+132,Uwe,Seib,Uwe Seib,Individuum,Germania,Mitglied,Urologe i.R.
+133,Philip,Stein,Philip Stein,Individuum,Germania,Mitglied,extrem rechter Netzwerker
+134,Dieter,Steinmetz,Dieter Steinmetz,Individuum,Germania,Mitglied,"Rechtsanwalt, Notar"
+135,Axel,Stett,Axel Stett,Individuum,Germania,Mitglied,Unternehmer
+136,Joachim,Straßburg,Joachim Straßburg,Individuum,Germania,Mitglied,Diplom Kaufmann
+137,Jürgen,Städtler,Jürgen Städtler,Individuum,Germania,Mitglied,Oberstudienrat a.D.
+138,Hermann,Stümpel,Hermann Stümpel,Individuum,Germania,Mitglied,Diplom Volkswirt
+139,Jörg,Textor,Jörg Textor,Individuum,Germania,Mitglied,"Hotel-Betriebswirt, Hotelier"
+140,Wolfgang,Thieste,Wolfgang Thieste,Individuum,Germania,Alter Herr,"Rechtsanwalt, Syndikus"
+141,Hans-Joachim,Trautmann,Hans-Joachim Trautmann,Individuum,Germania,Mitglied,Rechtsanwalt
+142,Wolfgang,Trautmann,Wolfgang Trautmann,Individuum,Germania,Mitglied,Rechtsanwalt i.R.
+143,Steffen G.,Tschackert,Steffen G. Tschackert,Individuum,Germania,Mitglied,Zahnarzt
+144,Wolfgang,Vehse,Wolfgang Vehse,Individuum,Germania,Alter Herr,Staatssekretär a.D.
+145,Johann Rainer,Vogt,Johann Rainer Vogt,Individuum,Germania,Mitglied,Richter am OLG a.D.
+146,Rüdiger,Vollmerhaus,Rüdiger Vollmerhaus,Individuum,Germania,Mitglied,Diplom Psychologe
+147,Siegmar,von Hirschheydt,Siegmar von Hirschheydt,Individuum,Germania,Mitglied,Allgemeinarzt
+148,Karl-Wilhelm,Vordemfelde,Karl-Wilhelm Vordemfelde,Individuum,Germania,Alter Herr,Unternehmer i.R.
+149,Klaus,Weber,Klaus Weber,Individuum,Germania,Mitglied,Internist i.R.
+150,Till,Weckmüller,Till Weckmüller,Individuum,Germania,Mitglied,Student/Jurist
+151,Dietrich,Weisner,Dietrich Weisner,Individuum,Germania,Mitglied,Oberarzt i.R.
+152,Karsten,Weyland,Karsten Weyland,Individuum,Germania,Mitglied,Leitender Postdirektor
+153,Wolfgang,Wieter,Wolfgang Wieter,Individuum,Germania,Mitglied,Programmdirektor (Verlag)
+154,Gert,Wilde,Gert Wilde,Individuum,Germania,Alter Herr,Oberstleutnant a.D.
+155,Henning,Windhagen,Henning Windhagen,Individuum,Germania,Mitglied,Orthopäde
+156,Philipp,Wolfrum,Philipp Wolfrum,Individuum,Germania,Mitglied,Rechtsanwalt
+157,Walter,Zinkant,Walter Zinkant,Individuum,Germania,Mitglied,Arzt i.R.
+158,Dirk,Zumbansen,Dirk Zumbansen,Individuum,Germania,Mitglied,Zahnarzt
+159,Bodo,Zwanzig,Bodo Zwanzig,Individuum,Germania,Mitglied,Zahnarzt
+160,Ihls,Marion,Marion Ihls,Individuum,Germania,Tochter von Ihls,
+161,Kaut,Lena Margarethe,Lena Margarethe Kaut,Individuum,Germania,Tochter von Kaut,
