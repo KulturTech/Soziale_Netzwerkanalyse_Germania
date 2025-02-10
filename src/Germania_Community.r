@@ -225,7 +225,7 @@ degree(g)
 plot(g, 
      main="Gerichtetes Netzwerk mit Degree-Zentralität", 
      vertex.label = V(g)$label,  # Knotenlabel anzeigen
-     vertex.size = degree * 3.5,  # Knoten-Größe basierend auf Eigenvector-Zentralität
+     vertex.size = degree * 0.5,  # Knoten-Größe basierend auf Eigenvector-Zentralität
      vertex.color = "lightblue",  # Knotenfarbe
      edge.arrow.size = 1.5,       # Größe der Pfeile
      edge.color = "black",         # Kantenfarbe
