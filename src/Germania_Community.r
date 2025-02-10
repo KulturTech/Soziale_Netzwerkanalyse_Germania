@@ -2,6 +2,7 @@
 library(igraph)
 library(visNetwork)
 
+
 # Lade die Kanten- und Knoten-Tabellen
 edges <- read.csv("Daten/edges1.csv")
 nodes <- read.csv("Daten/nodes1.csv")
@@ -59,6 +60,7 @@ plot(g,
      layout = layout_with_fr)    # Layout der Knoten (Fruchterman-Reingold Layout)
 
 
+
 betweenness_centrality <- betweenness(g)
 # Plot mit Hervorhebung zentraler Knoten
 plot(g, 
@@ -82,11 +84,11 @@ plot(g,
      edge.arrow.size = 1.5,       # Größe der Pfeile
      edge.color = "yellow",         # Kantenfarbe
      edge.width = 2,              # Kantenbreite
-     layout = layout_as_fr)     # Layout (Fruchterman-Reingold)
+     layout = layout_randomly)     # Layout (Fruchterman-Reingold)
 
 
 plot(g, edge.arrow.size=.5, vertex.label.color="black", vertex.label.dist=1.5,
-     vertex.color=c( "pink", "skyblue")[1+(V(net)$media.type=="1")] )
+     vertex.color=c( "pink", "skyblue")[1+(V(g)$media.type=="1")] )
 
 #vereinfachen des Plots
 g <- simplify(g, remove.multiple=T, remove.loops = T, 
