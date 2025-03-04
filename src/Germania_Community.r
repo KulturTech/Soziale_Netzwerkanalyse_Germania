@@ -35,6 +35,9 @@ cat("Durchschnittlicher Clustering-Koeffizient: ", avg_clust_coeff, "\n")
 # 5. Durchschnittliche Pfadlänge
 avg_path_length <- mean_distance(g)
 cat("Durchschnittliche Pfadlänge: ", avg_path_length, "\n")
+max(closeness(g, mode="all"))
+  #maximale Anzahl aller Beziehungen an einem Knoten: 13 
+closeness
 
 # 6. Durchmesser des Netzwerks
 diameter_val <- diameter(g)
@@ -82,7 +85,7 @@ plot(g,
      vertex.size = eigenvector_centrality * 50,  # Knoten-Größe basierend auf Eigenvector-Zentralität
      vertex.color = "lightblue",  # Knotenfarbe
      edge.arrow.size = 1.5,       # Größe der Pfeile
-     edge.color = "yellow",         # Kantenfarbe
+     edge.color = "black",         # Kantenfarbe
      edge.width = 2,              # Kantenbreite
      layout = layout_randomly)     # Layout (Fruchterman-Reingold)
 
@@ -155,8 +158,8 @@ legend(x=-1.1, y=-1.1, c("Leibbursche","Kommunikation", "Leibfux")) # funktionie
 pch=21, col="#777777", pt.bg="gray80", pt.cex=2.5, bty="n", ncol=3)
 
 # Kürzester Pfad zwischen zwei Knoten (z. B. "A" und "D")
-start_node <- "1"
-end_node <- "161"
+start_node <- "3"
+end_node <- "42"
 
 shortest_path <- shortest_paths(g, from = start_node, to = end_node, output = "vpath")$vpath[[1]]
 
@@ -242,8 +245,74 @@ plot(g,
      edge.width = 2,              # Kantenbreite
      layout = layout_randomly)
 
+closeness(g)
+plot(g, 
+     main="Gerichtetes Netzwerk mit Betweenness-Zentralität", 
+     vertex.label = V(g)$label,  # Knotenlabel anzeigen
+     vertex.size = closeness* 3.5,  # Knoten-Größe basierend auf Eigenvector-Zentralität
+     vertex.color = "lightblue",  # Knotenfarbe
+     edge.arrow.size = 1.5,       # Größe der Pfeile
+     edge.color = "black",         # Kantenfarbe
+     edge.width = 2,              # Kantenbreite
+     layout = layout_randomly)
+
+library(igraph)
+
+closeness_centrality <- closeness(g, mode = "out")
 
 
+plot(g, 
+     main = "Netzwerk mit Closeness-Zentralität",
+     vertex.label = V(g)$name,  
+     vertex.size = closeness_centrality * 50,  # Größe skalieren
+     vertex.color = "lightblue",  
+     edge.arrow.size = 1.5,       
+     edge.color = "black",         
+     edge.width = 2,              
+     layout = layout_randomly)  # Fruchterman-Reingold Layout für bessere Darstellung
+
+
+
+
+# **In-Degree Prestige** (einfache Anzahl der eingehenden Kanten)
+in_degree_prestige <- degree(g, mode = "in")
+
+# **Proximity Prestige** (basierend auf inverser Distanz)
+proximity_prestige <- 1 / closeness(g, mode = "in")  # Closeness für eingehende Pfade
+
+# **PageRank Prestige** (gewichtete Bewertung der eingehenden Links)
+pagerank_prestige <- page.rank(g)$vector
+
+# **Eigenvector Prestige** (berücksichtigt die Wichtigkeit der Nachbarn)
+eigenvector_prestige <- eigen_centrality(g, directed = TRUE, scale = TRUE)$vector
+
+# Prestige-Werte anzeigen
+data.frame(
+  Knoten = V(g)$name,
+  InDegree = in_degree_prestige,
+  Proximity = proximity_prestige,
+  PageRank = pagerank_prestige,
+  Eigenvector = eigenvector_prestige
+)
+plot(g, 
+     main = "Netzwerk mit Prestige (In-Degree Größe)", 
+     vertex.label = V(g)$name,  
+     vertex.size = in_degree_prestige * 3,  # Größe nach In-Degree Prestige
+     vertex.color = "lightblue",  
+     edge.arrow.size = 1.5,       
+     edge.color = "black",         
+     edge.width = 2,              
+     layout = layout_with_fr)  # Layout für bessere Darstellung
+
+plot(g, 
+     main = "Netzwerk mit Prestige (In-Degree Größe)", 
+     vertex.label = V(g)$name,  
+     vertex.size = eigenvector_prestige * 10,  # Größe nach In-Degree Prestige
+     vertex.color = "lightblue",  
+     edge.arrow.size = 1.5,       
+     edge.color = "black",         
+     edge.width = 2,              
+     layout = layout_with_fr)  # Layout für bessere Darstellung
 
 
 
