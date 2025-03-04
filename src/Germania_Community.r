@@ -240,7 +240,9 @@ plot(g,
      edge.arrow.size = 1.5,       # Größe der Pfeile
      edge.color = "black",         # Kantenfarbe
      edge.width = 2,              # Kantenbreite
-     layout = layout_randomly) 
+     layout = layout_randomly)
+
+
 
 
 
