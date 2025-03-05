@@ -263,7 +263,7 @@ closeness_centrality <- closeness(g, mode = "out")
 
 plot(g, 
      main = "Netzwerk mit Closeness-Zentralität",
-     vertex.label = V(g)$name,  
+     vertex.label = V(g)$label,  
      vertex.size = closeness_centrality * 50,  # Größe skalieren
      vertex.color = "lightblue",  
      edge.arrow.size = 1.5,       
@@ -306,7 +306,7 @@ plot(g,
 
 plot(g, 
      main = "Netzwerk mit Prestige (In-Degree Größe)", 
-     vertex.label = V(g)$name,  
+     vertex.label = V(g)$label,  
      vertex.size = eigenvector_prestige * 10,  # Größe nach In-Degree Prestige
      vertex.color = "lightblue",  
      edge.arrow.size = 1.5,       
